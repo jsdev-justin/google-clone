@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    padding:1em;
+}
+
+
+.container{
+    width:95%;
+    margin:0 auto;
+}
+
+.flex{
+    display:flex;
+}
+
+.justify-between{
+    justify-content:space-between;
+    align-items:center;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.align-end{
+    margin-left:15px;
+}
+
+.flex-one{
+    flex:1;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+h5{
+    margin:5px;
+    cursor:pointer;
+}
+
+
+
+.underline:hover{
+    border-bottom:1px solid black;
+}
+
+.hover-blue:hover{
+    color:blue;
+}
+
+
+.column{
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+
+.letter{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.blue{
+    color:blue;
+}
+
+.red{
+    color:red;
+}
+
+.green{
+    color:green;
+}
+
+.yellow{
+    color:rgb(231, 231, 33)
+}
+
+.search-form{
+    padding:1em;
+}
+
+.form-control{
+    padding:2em;
+}
+
+.input-box{
+    padding:.5em;
+    padding-left:2.25em;
+    width:300px;
+    border-radius:100px;
+    outline:none;
+}
+
+.center{
+    align-items:center;
+    justify-content: center;
+}
+
+.icon{
+    position:relative;
+    left:30px;
+    top:10px;
+    transform:scale(.6)
+}
+
+@media screen and (max-width:450px){
+    .icon{
+        top:35px;
+        left:0px;
+    }
+
+    .input-box{
+        width:100px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .icon{
+        top:35px;
+        left:0px;
+    }
+
+    .input-box{
+        width:75px;
+    }
+}
+
+.btn{
+    margin:10px;
+    padding:.5em;
+    opacity:.6;
+    border:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    opacity:.8;
+}
+
+
+.header-icon{
+    margin-left:10px;
+    transform:scale(.5);
+    /* margin-top:5px; */
+}
+
+.user-tab{
+    border-radius:50%;
+    background:gray;
+    color:white;
+    padding:.35em;
+    margin-left:10px;
+}
+
+.nav{
+    padding:1em;
+    border-bottom:2px lightgray;
+}
